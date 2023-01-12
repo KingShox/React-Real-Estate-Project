@@ -1,0 +1,72 @@
+
+
+.sign-box{
+    width:360px;
+    height: 650px;
+    margin: auto;
+    background-color:#ffffff;
+    border-radius:5px ;
+}
+.login-box{
+    width: 360px;
+    height: 280px;
+    margin: auto;
+    background-color:#ffffff;
+    border-radius: 5px;
+}
+h1{
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+    padding-top: 15px;
+    color: #000000;;
+}
+h4{
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+}
+form{
+    width: 300px;
+    margin-left: 20px;
+}
+label{
+    display: flex;
+    margin-top: 20px;
+    font-size:18px;
+}
+input{
+    width: 100%;
+    padding: 7px;
+    border: none;
+    border: 1px solid gray;
+    border-radius: 6px;
+    outline: none;
+}
+button{
+    width: 320px;
+    height: 35px;
+    margin-top: 20px;
+    border: none;
+    background-color:#000000;;
+    color: white;
+    font-size: 18px;
+    border-radius: 5px;
+}
+p{
+    text-align: center;
+    padding-top: 20px;
+    font-size: 15px;
+    font-family: 'Courier New', Courier, monospace;
+    color: #000000;;
+}
+.para-2{
+    text-align: center;
+    color: white;
+    font-size: 18px;
+    margin-top: -10px;
+}
+.para-2 a{
+    color: #0082e6;;
+}
+.contents{
+    margin:100px;
+}
