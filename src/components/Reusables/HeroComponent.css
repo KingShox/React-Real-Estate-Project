@@ -18,6 +18,11 @@
     mix-blend-mode: hard-light;
 }
 
+.full{
+    width: 0 !important;
+    height: 0 !important;
+}
+
 video {
     position: absolute;
     height: 100%;

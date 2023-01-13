@@ -7,7 +7,7 @@ function HeroComponent() {
   return (
     <section className='hero'>
         <div className='overlay'></div>
-        <ReactPlayer  url={video} playing loop muted/>
+        <ReactPlayer className='full' url={video} playing loop muted/>
         <div className='heroContent container'>
             <div className='texDiv'>
                 <div className='text'>
