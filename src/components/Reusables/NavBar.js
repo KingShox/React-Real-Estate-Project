@@ -17,7 +17,7 @@ const NavBar = ()=> {
 				<a href="/">Home</a>
 				<a href="/Sale">For Sale</a>
 				<a href="/rent">For Rent</a>
-				<a href="/Sign-In">Sign In</a>
+				<a href="/SignIn">Sign In</a>
 				<a href="/SignUp">Sign Up</a>
 			</nav>
 		</div>

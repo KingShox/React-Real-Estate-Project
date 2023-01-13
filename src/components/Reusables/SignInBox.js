@@ -15,7 +15,7 @@ function SignInBox() {
                 <button type="submit">SUBMIT</button>
             </div>
         </div>
-        <p className="para-2"><strong>Have An Account? <a href="SIgnUpPage.html"> SIGN UP</a></strong></p>
+        <p className="para-2"><strong>Create An Account? <a href="SignUp"> SIGN UP</a></strong></p>
     </div>
   )
 }
