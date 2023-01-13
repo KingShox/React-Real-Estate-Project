@@ -23,6 +23,15 @@
     height: 0 !important;
 }
 
+.SearchInput{
+    width: 60%;
+}
+
+.cardDiv{
+    justify-content: center;
+    display: flex;
+}
+
 video {
     position: absolute;
     height: 100%;
@@ -34,7 +43,7 @@ video {
 .heroContent {
     width: 100%;
     height: max-content;
-    padding: 8rem 1.5rem 3rem;
+    padding: 5rem 1.5rem 7rem;
     display: flex;
     row-gap: 3rem;
     flex-direction: column;
@@ -54,7 +63,8 @@ video {
 .title{
     position: relative;
     font-size: 1.8rem;
-    content: white;
+    color: white;
+    font-weight: bold;
 }
 h1 {
     color: white;

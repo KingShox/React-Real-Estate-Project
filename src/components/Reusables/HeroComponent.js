@@ -19,7 +19,6 @@ function HeroComponent() {
             </div>
             <div className='cardDiv grid'>
                 <div className='SearchInput'>
-                    <label> Search Your House</label>
                     <div className='input flex'>
                         <input type='text' placeholder='Search'></input>
                     </div>
