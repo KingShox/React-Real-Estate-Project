@@ -1,12 +1,12 @@
 import React from 'react'
-import "../Pages/SignUp.css"
+import SignUpBox from '../Reusables/SignUpBox'
 
 
 function SignUp() {
   return (
-    <div>
-        
-    </div>
+   <>
+    <SignUpBox/>
+   </>
   )
 }
 

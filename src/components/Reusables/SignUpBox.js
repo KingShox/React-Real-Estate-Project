@@ -23,6 +23,7 @@ function SignUpBox() {
                 <div>
                     <button type="submit">Submit</button>
                 </div>
+                <p className="para-2"><strong>Have An Account? <a href="SignIn"> Sign In</a></strong></p>
             </div>
             </div>
     </div>
