@@ -10,9 +10,6 @@ function HeroComponent() {
         <ReactPlayer className='full' url={video} playing loop muted/>
         <div className='heroContent container'>
             <div className='texDiv'>
-                <div className='text'>
-                    Our Homes
-                </div>
                 <h1 className='title'>
                     Search your Dream Home
                 </h1>
