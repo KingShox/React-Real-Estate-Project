@@ -15,7 +15,7 @@ const NavBar = ()=> {
 		<div>
         	<nav ref={navRef}>
 				<a href="/">Home</a>
-				<a href="/Sale">For Sale</a>
+				<a href="/Sales">For Sale</a>
 				<a href="/rent">For Rent</a>
 				<a href="/SignIn">Sign In</a>
 				<a href="/SignUp">Sign Up</a>

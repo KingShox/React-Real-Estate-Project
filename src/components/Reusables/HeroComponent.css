@@ -23,13 +23,10 @@
     height: 0 !important;
 }
 
-.SearchInput{
-    width: 60%;
-}
-
 .cardDiv{
     justify-content: center;
     display: flex;
+    width: 80%;
 }
 
 video {
@@ -40,6 +37,7 @@ video {
     bottom: 0;
     object-fit: cover;
 }
+
 .heroContent {
     width: 100%;
     height: max-content;
@@ -51,21 +49,25 @@ video {
     justify-content: center;
     margin: auto;
     z-index: 100;
-
+    align-items: center;
 }
+
 .textDiv {
     padding: 2rem 0;
 }
+
 .text {
     font-size: 13px;
     text-transform: uppercase;
 }
+
 .title{
     position: relative;
     font-size: 1.8rem;
     color: white;
     font-weight: bold;
 }
+
 h1 {
     color: white;
 }
