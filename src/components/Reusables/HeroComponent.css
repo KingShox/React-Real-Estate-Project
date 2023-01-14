@@ -26,7 +26,7 @@
 .cardDiv{
     justify-content: center;
     display: flex;
-    width: 80%;
+    width: 60%;
 }
 
 video {
@@ -36,6 +36,14 @@ video {
     top: 0;
     bottom: 0;
     object-fit: cover;
+}
+
+.SearchInput{
+    width: 100%;
+}
+
+.input{
+    width: 100%;
 }
 
 .heroContent {

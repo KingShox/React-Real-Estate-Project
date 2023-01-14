@@ -7,7 +7,7 @@ function SignInBox() {
     <div class="contents">
         <div class="login-box">
             <h1>Login</h1>
-            <div className="form">
+            <div className="form flex-col">
                 <label class="label">Email</label>
                 <input className="input" type="email" placeholder=""/>
                 <label className="label">Password</label>

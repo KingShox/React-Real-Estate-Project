@@ -17,7 +17,7 @@ function HeroComponent() {
             <div className='cardDiv grid'>
                 <div className='SearchInput'>
                     <div className='input flex'>
-                        <input type='text' placeholder='Search'></input>
+                        <input id='hero-input' type='text' placeholder='Search'></input>
                     </div>
 
                 </div>

@@ -1,4 +1,5 @@
 .sign-box{
+    flex-direction: column;
     width:360px;
     height: 650px;
     margin: auto;
@@ -6,6 +7,7 @@
     border-radius:5px ;
 }
 .login-box{
+    flex-direction: column;
     width: 360px;
     height: 280px;
     margin: auto;
@@ -41,6 +43,8 @@ input{
     outline: none;
 }
 button{
+    justify-content: center;
+    align-items: center;
     width: 361px;
     height: 40px;
     margin-top: 20px;
@@ -52,13 +56,18 @@ button{
 }
 p{
     text-align: center;
+    align-items: center;
+    justify-content: center;
     padding-top: 20px;
     font-size: 15px;
     font-family: "Titillium Web", sans-serif;
     color: #000000;;
 }
-
+strong{
+    align-items: center;
+}
 .contents{
+    flex-direction: column;
     margin:100px;
     margin-top: 50px;
     box-shadow: 0 2px 4px 0 rgba(0,0,0,.2);
