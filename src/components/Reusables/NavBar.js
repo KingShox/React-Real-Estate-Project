@@ -11,7 +11,7 @@ const NavBar = ()=> {
   return (
 	<div>
       <header className='colors'>
-        <h3>Sally's <FaHome/> Real Estate Co. </h3>
+        <h3><FaHome/>&nbsp;Sally's Real Estate Co.</h3>
 		<div>
         	<nav ref={navRef}>
 				<a href="/">Home</a>

@@ -4,7 +4,6 @@
 	padding: 0;
 	margin: 0;
 	box-sizing: border-box;
-	font-family: "Titillium Web", sans-serif;
 }
 
 .colors {
@@ -24,6 +23,7 @@ header {
 	background-color: var(--mainColor);
 	color: var(--textColor);
 	box-shadow: 0 2px 4px 0 rgba(0,0,0,.2);
+	font-family: "Titillium Web", sans-serif;
 }
 
 nav a {
@@ -32,8 +32,11 @@ nav a {
 	text-decoration: none;
 	font-size: large;
 }
+
 h3 {
 	font-size: 20px;
+	align-items: center;
+	justify-content: center;
 }
 
 nav a:hover {
