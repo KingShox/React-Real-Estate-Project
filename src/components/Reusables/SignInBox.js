@@ -1,5 +1,5 @@
 import React from 'react'
-import '../Reusables/SignUpBox.css'
+import '../../CSS/Reusables/SignUpBox.css'
 import { useNavigate } from 'react-router';
 import { useState } from 'react';
 import axios from 'axios';

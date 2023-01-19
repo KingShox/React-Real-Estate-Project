@@ -1,7 +1,7 @@
 import axios from 'axios';
 import React from 'react'
 import { useNavigate } from 'react-router'
-import "../Reusables/SignUpBox.css"
+import "../../CSS/Reusables/SignUpBox.css"
 import { useState } from 'react';
 
 function SignUpBox() {
@@ -32,9 +32,6 @@ function SignUpBox() {
   })
 
   }
-
-
-
 
   return (
     <div className="contents">

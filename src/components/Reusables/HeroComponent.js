@@ -1,7 +1,7 @@
 import React from 'react'
 import ReactPlayer from 'react-player';
 import video from '../../../src/assets/videos/video.mp4'
-import '../Reusables/HeroComponent.css'
+import '../../CSS/Reusables/HeroComponent.css'
 
 function HeroComponent() {
   return (

@@ -1,5 +1,5 @@
 import React, {useRef} from 'react'
-import '../Reusables/NavBar.css'
+import '../../CSS/Reusables/NavBar.css'
 import {FaBars,FaTimes, FaHome} from 'react-icons/fa';
 
 const NavBar = ()=> {
@@ -15,7 +15,7 @@ const NavBar = ()=> {
 		<div>
         	<nav ref={navRef}>
 				<a href="/">Home</a>
-				<a href="/Sales">For Sale</a>
+				<a href="/ForSale">For Sale</a>
 				<a href="/rent">For Rent</a>
 				<a href="/SignIn">Sign In</a>
 				<a href="/SignUp">Sign Up</a>

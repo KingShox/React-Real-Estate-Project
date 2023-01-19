@@ -16,6 +16,10 @@ htm1, body{
   justify-content: center;
   align-items: center;
 }
+.fill-vertical{
+  flex: 1;
+  height: 100%;
+}
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
@@ -33,4 +37,8 @@ code {
 
 #root{
   flex-direction: column;
+  height: 100%;
+}
+router{
+  height: 100%;
 }
