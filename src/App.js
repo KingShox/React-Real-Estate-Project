@@ -4,7 +4,6 @@ import NavBar from './components/Reusables/NavBar';
 import Home from './components/Pages/Home'
 import SignIn from './components/Pages/SignIn';
 import SignUp from './components/Pages/SignUp';
-import Footer from './components/Reusables/Footer';
 import ForSale from './components/Pages/ForSale';
 
 

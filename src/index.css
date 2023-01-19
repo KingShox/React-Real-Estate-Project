@@ -1,4 +1,4 @@
-htm1, body{
+htm1,body{
   height: 100vh;
   width: 100vw;
   margin: 0;
@@ -35,20 +35,11 @@ code {
     monospace;
 }
 
-html, body {
-  height: 100vh;
-  width: 100vw;
-  margin: 0;
-}
-
-*:not(head) {
-  display: flex;
-}
-
 #root{
   flex-direction: column;
   height: 100%;
 }
 router{
   height: 100%;
+  flex-direction: column;
 }

@@ -1,13 +1,9 @@
 import React, {useRef} from 'react'
 import '../../CSS/Reusables/NavBar.css'
-import {FaBars,FaTimes, FaHome} from 'react-icons/fa';
+import {FaHome} from 'react-icons/fa';
 
 const NavBar = ()=> {
   const navRef = useRef();
-
-	const showNavbar = () => {
-		navRef.current.classList.toggle("responsive_nav");
-	};
   return (
 	<div>
       <header className='colors'>
