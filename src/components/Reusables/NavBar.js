@@ -16,7 +16,7 @@ const NavBar = ()=> {
         	<nav ref={navRef}>
 				<a href="/">Home</a>
 				<a href="/ForSale">For Sale</a>
-				<a href="/rent">For Rent</a>
+				<a href="/Rent">For Rent</a>
 				<a href="/SignIn">Sign In</a>
 				<a href="/SignUp">Sign Up</a>
 			</nav>

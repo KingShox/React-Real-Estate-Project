@@ -1,12 +1,11 @@
-
-import { BrowserRouter, Route,Routes } from 'react-router-dom';
+import { Routes, Route } from 'react-router-dom'
 import './App.css';
 import NavBar from './components/Reusables/NavBar';
 import Home from './components/Pages/Home'
 import SignIn from './components/Pages/SignIn';
 import SignUp from './components/Pages/SignUp';
 import Footer from './components/Reusables/Footer';
-import ForSale from './components/Pages/ForSale';
+import Sales from './components/Pages/ForSale';
 
 
 function App() {
@@ -19,7 +18,6 @@ function App() {
         <Route path='/SignUp'  element={<SignUp/>} />
         <Route path='/ForSale'  element={<ForSale/>} />
       </Routes>
-      <Footer/>
     </router>
     
      
