@@ -5,7 +5,7 @@ import Home from './components/Pages/Home'
 import SignIn from './components/Pages/SignIn';
 import SignUp from './components/Pages/SignUp';
 import Footer from './components/Reusables/Footer';
-import Sales from './components/Pages/ForSale';
+import ForSale from './components/Pages/ForSale';
 
 
 function App() {
