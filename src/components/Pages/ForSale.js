@@ -1,21 +1,36 @@
 import React, { useEffect, useState } from 'react'
 import LoadingSpinner from '../Reusables/LoadingSpinner';
-import HouseComponents from '../Reusables/HousesComponents'
+import HouseComponentOverNinety from '../Reusables/HousesComponentOverNinety'
+
 import {FaHome} from 'react-icons/fa';
 import '../../CSS/Pages/ForSale.css'
 import axios from 'axios';
+import HouseComponentUnderNinety from '../Reusables/HouseComponentUnderNinety';
 
 function ForSale() {
 
-  const [forSaleHouses, setForSaleHouses] = useState([])
+  const [forSaleHousesOverNinety, setForSaleHousesOverNinety] = useState([])
+  const [forSaleHousesUnderNinety, setForSaleHousesUnderNinety] = useState([])
   const [isLoading, setIsLoading] = useState(true)
 
   useEffect(() => {
 
-    axios.get("http://localhost:8080/viewHousesForSale")
+    axios.get("http://localhost:8080/viewHousesForSaleUnderNinety")
+    .then((response) => {
+        setForSaleHousesUnderNinety(response.data)
+    })
+    .catch((e) => {
+      console.log(e)
+    })
+
+  }, [])
+
+  useEffect(() => {
+
+    axios.get("http://localhost:8080/viewHousesForSaleOverNinety")
     .then((response) => {
       setTimeout(() => {
-        setForSaleHouses(response.data)
+        setForSaleHousesOverNinety(response.data)
         setIsLoading(false)
       }, 1000)
     })
@@ -32,15 +47,31 @@ function ForSale() {
           <div className='flex-col center fill-vertical'><LoadingSpinner/></div>
         )
     }else{
+
       return(
-        forSaleHouses.map((house) => {
+
+        forSaleHousesUnderNinety.map((house) => {
           return(
-             <HouseComponents house={house}/>
+             <HouseComponentUnderNinety house={house}/>
           )
         })
-       
+
       )
+
     }
+    
+  }
+
+  const renderContent2 = () => {
+      return(
+        forSaleHousesOverNinety.map((house) => {
+          return(
+             <HouseComponentOverNinety house={house}/>
+          )
+        })
+
+      )
+    
   }
 
   return (
@@ -50,6 +81,7 @@ function ForSale() {
       </div>
       <div id='houses' className='flex-row center'>
         {renderContent()}
+        {renderContent2()}
       </div>
     </>
   )

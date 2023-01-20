@@ -107,7 +107,7 @@ img{
 }
 .price{
     font-size: 25px;
-    color: #73dd59;
+    color: red;
     /* text-decoration: line-through; */
 }
 .price-90{
@@ -117,6 +117,7 @@ img{
     text-decoration-color: #bb8d40;
 }
 .discount{
+    color:red;
     margin-top: 1%;
     margin-bottom: 1%;
     font-size: 20px;
