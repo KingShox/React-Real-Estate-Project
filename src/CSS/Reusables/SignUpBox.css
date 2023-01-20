@@ -34,7 +34,7 @@ label{
     font-size:18px;
     font-family: "Titillium Web", sans-serif;
 }
-input{
+.input1{
     width: 100%;
     padding: 7px;
     border: none;

@@ -37,7 +37,7 @@ code {
 
 #root{
   flex-direction: column;
-  height: 100%;
+  flex: auto;
 }
 router{
   height: 100%;

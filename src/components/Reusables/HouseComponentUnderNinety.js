@@ -38,7 +38,7 @@ function HouseComponentUnderNinety(props) {
                 <div>Posted:  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; {TimeFormatter(props.house.timeOfListing)}</div>
                 <div id= "title-box" className="flex-row">
                     <div className="add-width">Contact:   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Agent Info</div>
-                    <div className="justify-right full-width"><button onclick=""className="button-1" role="button">Details</button></div>  
+                    <div className="justify-right full-width"><button onclick="/"className="button-1" role="button">Details</button></div>  
                 </div>  
             </div>
             <img src={props.house.picture} />

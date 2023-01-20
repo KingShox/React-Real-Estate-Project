@@ -39,9 +39,9 @@ function SignInBox() {
             <h1>Login</h1>
             <div className="form flex-col">
                 <label class="label">Email</label>
-                <input className="input" type="email" onChange={changeHandler} name='emailAddress' value={user.emailAddress}/>
+                <input className="input1" type="email" onChange={changeHandler} name='emailAddress' value={user.emailAddress}/>
                 <label className="label">Password</label>
-                <input className="input" type="password" onChange={changeHandler} name='password' value={user.password}/>
+                <input className="input1" type="password" onChange={changeHandler} name='password' value={user.password}/>
                 <button type="submit" onClick={sumbitHandler}>Submit</button>
             </div>
         </div>

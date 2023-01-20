@@ -41,15 +41,15 @@ function SignUpBox() {
            <div className='flex-col'>
            <div className="form flex-col">
                     <label className="label">First Name:</label>
-                    <input className="input" type="text" onChange={changeHandler} name='firstName' value={user.firstName}/>
+                    <input className="input1" type="text" onChange={changeHandler} name='firstName' value={user.firstName}/>
                     <label className="label">Last Name:</label>
-                    <input className="input" type="text" onChange={changeHandler} name='lastName' value={user.lastName}/>
+                    <input className="input1" type="text" onChange={changeHandler} name='lastName' value={user.lastName}/>
                     <label className="label">Email:</label>
-                    <input className="input" type="email" onChange={changeHandler} name='emailAddress' value={user.emailAddress}/>
+                    <input className="input1" type="email" onChange={changeHandler} name='emailAddress' value={user.emailAddress}/>
                     <label className="label">Password:</label>
-                    <input className="input" type="password" onChange={changeHandler} name='password' value={user.password}/>
+                    <input className="input1" type="password" onChange={changeHandler} name='password' value={user.password}/>
                     <label className="label">Confirm Password:</label>
-                    <input className="input" type="password" onChange={changeHandler} name='confirmPassword' value={user.confirmPassword}/>
+                    <input className="input1" type="password" onChange={changeHandler} name='confirmPassword' value={user.confirmPassword}/>
                 </div>
                 <div>
                     <button type="submit" onClick={sumbitHandler}>Submit</button>
