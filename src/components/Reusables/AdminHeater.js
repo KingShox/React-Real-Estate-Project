@@ -1,5 +1,5 @@
 import React from 'react'
-import '../../CSS/Reusables/DashBoard.css'
+import '../../CSS/Reusables/AdminHeater.css'
 import Home from '../Pages/Home'
 
 function DashBoard() {
