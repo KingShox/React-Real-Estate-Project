@@ -10,7 +10,7 @@ function Admin() {
         <Route path='/'  element={<Home/>} />
         <Route path='/House'  element={<House/>} />
         <Route path='/User'  element={<User/>} />
-      </Routes>
+    </Routes>
   )
 }
 
